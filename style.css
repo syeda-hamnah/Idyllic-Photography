@@ -1,0 +1,164 @@
+body {
+    font-family: "Cardo";
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    scroll-behavior: smooth;
+    /* background-image: url(./photos/jeff-regina_wedding-day_liller-photo-837.jpg);
+    background-repeat: no-repeat; */
+}
+
+
+#mainNavigation a {
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .dropdown-menu {
+  background:#ffffff
+} */
+a.dropdown-toggle {
+  color:#ffffff !important
+}
+a.dropdown-item:hover {
+  color:#ffffff !important
+}
+.nav-item a{
+  color:#000000;
+}
+.nav-item a:hover {
+  color:#ffffff
+}
+.nav-item{
+  min-width:12vw;
+}
+#mainNavigation {
+  position: absolute;
+  top : 0;
+  width: 100%
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav{ 
+  padding:12px;
+}
+.navbar-toggler {
+    color: #ffffff;
+}
+nav {
+    font-size: 13.5px;
+   font-weight: 500;
+}
+.nav-link{
+    color: white;
+
+}
+nav >ul >li >a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+a:hover {
+    color: grey !important; 
+} 
+#navigationbar {
+  height: 75px;
+  width: 100%;
+  background-color: #3e3e3e;
+}
+.main-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.navbar {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main {
+    filter: brightness(75%);  
+}
+/* #logo {
+  margin-right: 200px;
+} */
+
+.horizontal_line {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 4px;
+    border-top: 5px  black;
+    border-radius: 15px;
+    line-height: 100%; 
+    margin-left: 45%;
+    margin-top: 40px;
+    margin-bottom: 20%;
+}
+#carouselExampleAutoplaying > * .card {
+  background-color: #3e3e3e; 
+  margin-right: 2%;
+  margin-left: 2%;
+}
+#experience {
+    position: absolute;
+    top: 0%;
+    z-index: -1;  
+    filter: brightness(80%);  
+}
+#experience-container {
+    margin-top: 110px;
+    margin-left: 140px;
+}
+h4 {
+    font-size: 13.5px;
+}
+.experience {
+    margin-left: 35%;
+    margin-top: 300px;
+}
+footer > * {
+    font-size: 15px;
+    font-weight: 40;  
+ }
+ i {
+    height: 10px;
+ }
+ footer {
+    background-color: #3e3e3e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ #footer-div1 > p, a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+ }
+ #carouselExampleAutoplaying > * .card-investment {
+  background-color: #3e3e3e; 
+  padding: 25px;
+}
+    /* filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear; */
+
+  /* .column img:hover {
+    filter: grayscale(0); */
+  /* } */
+  /* @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  } */
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  } */
